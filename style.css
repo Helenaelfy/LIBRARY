@@ -1,0 +1,116 @@
+body{
+    font-family: "Jost";
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+}
+.header{
+    display: flex;
+    height: 62px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav {
+    
+}
+.nav-list {
+    display: flex;
+    font-family: "Jost";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+}
+.nav-list a {
+    color: #292f36;
+}
+.nav-item:not(:last-child)
+{
+    margin-right: 40px;
+}
+.nav-item:hover a {
+    color:  #cda274;
+}
+
+.bunner {
+    height: 831px;
+    background-color: lightgray;
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 0 290px;
+    overflow: hidden;
+    padding-left: 120px;
+    padding-top: 178px;
+}
+.bunner-title {
+    color: #292f36;
+    font-family: DM serif display;
+    font-size: 80px;
+    line-height: 1.20;
+    letter-spacing: 0.22px;
+    margin-bottom: 19px;
+}
+.bunner-text {
+    color: #4d5053;
+    font-size: 22px;
+    line-height: 1.50;
+    letter-spacing: 0.22px;
+    margin-bottom: 57px;
+}
+.bunner-btn {
+    color: #fff;
+    background-color: #292f36;
+    border-radius: 18px;
+    font-size: 18px;
+    line-height: 1.50;
+    letter-spacing: 0.72px;
+    padding: 22px 51px;
+}
+.features-list {
+}
+.features-item {
+}
+.project {
+}
+.wrap {
+}
+.project-title {
+}
+.project-text {
+}
+.brand {
+}
+.brand-list {
+}
+.brand-item {
+}
+.projects {
+}
+.projects-title {
+}
+.project-list {
+}
+.projects-item {
+}
+.footer {
+}
+.footer-info {
+}
+.footer-logo {
+}
+.footer-text {
+}
+.social-list {
+}
+.social-item {
+}
+.footer-copyright {
+}
